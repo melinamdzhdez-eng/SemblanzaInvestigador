@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Semblanza del investigador</title>
+  <meta name="description" content="[Protocolo de Investigación]">
+
+  <style>
+    /* ===== Colores (cámbialos aquí y se actualizan en toda la página) ===== */
+    :root {
+      --azul: #A9D9C2;
+      --azul-oscuro: #638d93;
+      --gris: #938c8c;
+      --blanco: #f8f8f8;
+      --texto: #3B3128;
+      --rosa: #F2B6A0;
+    }
+
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: system-ui, Arial, sans-serif; color: var(--texto); background: var(--blanco); line-height: 1.6; }
+
+    /* ===== Encabezado ===== */
+    header { background: var(--azul); color: #fff; padding: 40px 20px; }
+    .contenedor { max-width: 900px; margin: 0 auto; }
+    header .contenedor { 
+      display: flex; 
+      align-items: center; 
+      gap: 20px; 
+    }
+    .foto-izquierdo { width: 90px; height: auto; }
+
+    header h1 { margin: 0 0 8px; font-size: 2.4rem; }
+    header .subtitulo { margin: 0 0 16px; color: #938c8c; }
+    header .datos { font-size: 0.95rem; color: #938c8c; }
+
+    /* ===== Menú ===== */
+    nav { background: var(--azul-oscuro); }
+    nav ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 4px 18px; max-width: 900px; margin: 0 auto; padding: 12px 20px; }
+    nav a { color: var(--blanco); text-decoration: none; font-size: 0.95rem; }
+
+    /* ===== Secciones ===== */
+    main { max-width: 900px; margin: 0 auto; padding: 20px; }
+    section { padding: 28px 0; border-bottom: 1px solid #E5D8CF; }
+    section h2 { color: var(--rosa); margin-top: 0; }
+    figure { margin: 20px 0; }
+    img { max-width: 100%; height: auto; border-radius: 10px; }
+    figcaption { font-size: 0.9rem; color: #6A5C52; margin-top: 6px; }
+
+    footer { background: var(--azul-oscuro); color: #F1E3D9; padding: 24px 20px; text-align: center; font-size: 0.9rem; }
+  </style>
+</head>
+
+<body>
+
+  <!-- ===== ENCABEZADO ===== -->
+<header>
+  <div class="contenedor">
+        <img src="Cronograma/foto.jpeg" alt="Foto personal" class="foto-izquierdo">
+    <div class="textos-encabezado"> 
+      <h1>Melina Mendoza Hernández</h1>
+      <p class="subtitulo">Instituto Tecnológico de Veracruz</p>
+      <div class="datos">
+        <p>Ingeniería en Sistemas Computacionales<p>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+
+  <!-- ===== MENÚ ===== -->
+  <nav>
+    <ul>
+      <li><a href="#introduccion">Semblanza</a></li>
+      <li><a href="#estudios">Formación académica</a></li>
+      <li><a href="#proyectos">Proyectos destacados</a></li>
+      <li><a href="#intereses">Áreas de interés</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#contacto">Contactos</a></li>
+      <li><a href="#actividades">Cronograma de actividades</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <!-- ===== Semblanza ===== -->
+    <section id="introduccion">
+      <h2>Semblanza</h2>
+      <p style="text-align: justify;">Estudiante de Ingeniería en Sistemas Computacionales en el Instituto Tecnológico de Veracruz. Se especializa en el desarrollo de sistemas embebidos, procesamiento de datos y arquitectura de bases de datos relacionales. Como parte de su formación académica y técnica, ha participado en proyectos de investigación enfocados en el impacto social de la tecnología, tales como el análisis de la comprensión de los adultos mayores frente a los avisos de privacidad digital. Asimismo, cuenta con experiencia en la creación de plataformas de predicción económica y en el desarrollo de sistemas para la gestión de nómina.<p>
+    </section>
+
+    <!-- ===== Estudios ===== -->
+    <section id="estudios">
+      <h2>Formación académica</h2>
+      <p>𖦹 Ingeniería en Sistemas Computacionales</p>
+      </p>𖦹 Instituto Tecnológico de Veracruz</p>
+      </p>𖦹 Número de control: 23020802<p>
+    </section>
+
+    <!-- ===== Proyectos ===== -->
+    <section id="proyectos">
+      <h2>Proyectos destacados</h2>
+     <p style="text-align: justify;">𖦹 FoodNet:Plataforma web impulsada por una arquitectura de Inteligencia Artificial, diseñada para la predicción proactiva de precios. Transforma datos históricos en inteligencia estratégica, para la anticipación de choques de mercado antes de que afecten al consumidor final.</p>
+    <p style="text-align: justify;">𖦹 Foro estudiantil: Programa diseñado para facilitar la comunicación académica y el intercambio de recursos entre la comunidad estudiantil. Integra gestión de usuarios, hilos de discusión categorizados y herramientas de moderación de contenido.</p>
+     <p style="text-align: justify;">𖦹 Analizador SHIMMA++: Analizador léxico, sintáctico y semántico que incluye la generación de código intermedio (código de tres direcciones), desarrollado a la medida para un lenguaje de programación propio.</p>
+     <p style="text-align: justify;">𖦹 Sistema de gestión de nómina: Base de datos relacional implementada en PostgreSQL y MySQL. Su arquitectura está estructurada mediante el uso de vistas, particionamiento, segmentación de datos y esquemas multi-instancia para su administración.</p>
+     <p style="text-align: justify;">𖦹 ¿Aceptar sin entender?: Estudio sobre la comprensión de los avisos de privacidad y cookies en docentes del Instituto Tecnológico de Veracruz<p>
+    </section>
+
+    <!-- ===== Intereses ===== -->
+    <section id="intereses">
+      <h2>Áreas de intéres</h2>
+       </p style="text-align: justify;">Desarrollo de software, diseño y administración de bases de datos relacionales, arquitectura de redes, compiladores y modelado 3D.</p>
+    </section>
+
+    <!-- ===== Habilidades ===== -->
+    <section id="habilidades">
+      <h2>Habilidades técnicas</h2>
+       <p style="text-align: justify;">𖦹 Herramientas: Pycharm, GoogleColab, Visual Studio Code, Netbeans, Cisco Packet Tracer, GitHub, Fusion360, Tinkercad, Arduino IDE </p>
+       <p style="text-align: justify;">𖦹 Lenguajes: Python, Java, SQL (PostgreSQL· MySQL), HTML<p>
+    </section>
+
+    <!-- ===== Contactos===== -->
+    <section id="contacto">
+      <h2>Contactos</h2>
+       <p style="text-align: justify;">𖦹 Correo institucional: L23020802@veracruz.tecnm.mx  </p>
+       <p style="text-align: justify;">𖦹 Docente de la asignatura: Dra. Noemí del Carmen Tenorio Prieto</p>
+       <p style="text-align: justify;">𖦹 Asesor del protocolo: Dr. Sergio Ríos González <p>
+    </section>
+
+    <!-- ===== Cronograma de Actividades ===== -->
+    <section id="actividades">
+      <h2>Cronograma de Actividades</h2>
+      <h3>Taller de Investigación I </h3>
+      <figure>
+        <img src="Cronograma/1.jpg" alt="T1">
+      </figure>
+      <figure>
+        <img src="Cronograma/2.jpg" alt="T1">
+      </figure>
+      <figure>
+        <img src="Cronograma/3.jpg" alt="T1">
+      </figure>
+      <h3>Taller de Investigación II </h3>
+      <figure>
+        <img src="Cronograma/4.jpg" alt="T2">
+      </figure>
+      <figure>
+        <img src="Cronograma/5.jpg" alt="T2">
+      </figure>
+      <figure>
+        <img src="Cronograma/6.jpg" alt="T2">
+      </figure>
+      <figure>
+        <img src="Cronograma/7.jpg" alt="T2">
+      </figure>
+      <figure>
+        <img src="Cronograma/8.jpg" alt="T2">
+      </figure>
+
+    </section>
+
+  </main>
+
+  <!-- ===== PIE DE PÁGINA ===== -->
+  <footer>
+    <p>Instituto Tecnológico de Veracruz · 2026 </p>
+    <p>L23020802@veracruz.tecnm.mx</p>
+  </footer>
+
+</body>
+</html>
